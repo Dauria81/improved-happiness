@@ -1,0 +1,17 @@
+html { 
+font-family: 'Bitter', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+width: 1440px;
+height: 4574px;
+flex-shrink: 0;
+}
+
+.bitterreg {
+color: #000;
+font-family: Bitter;
+font-size: 34px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
