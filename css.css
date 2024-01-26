@@ -12,6 +12,24 @@ color: #000;
 font-family: Bitter;
 font-size: 34px;
 font-style: normal;
-font-weight: 800;
+font-weight: 400;
+line-height: normal;
+}
+
+.robotobold {
+color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;   
+}
+
+.robotomed {
+color: #0D0D0D;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
 line-height: normal;
 }
