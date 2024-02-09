@@ -7,7 +7,7 @@ height: 4574px;
 flex-shrink: 0;
 }
 
-.bitterreg {
+.quotes, .list {
 color: #000;
 font-family: Bitter;
 font-size: 34px;
@@ -16,7 +16,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.robotobold {
+.main-header, .mid-header, .block-bio, .block-art, .lock-art-description, .chapter, .designers-name, .Block-testimonials, .references {
 color: #000;
 font-family: Roboto;
 font-size: 24px;
