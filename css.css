@@ -48,29 +48,29 @@ body { margin: 0px;}
     text-decoration: none;
     }
 
-    .hero-section {
-        display: border-box;
-        width: 100%;
-        height:630px;
-        padding: 0;
-        margin: 50px 0 50px 20px;
-        background: url("img\background.jpg");
-        background-size: no-repeat;
-        background-position: center;
-        background-size: cover;
+.hero-section {
+    display: border-box;
+    width: 100%;
+    height:630px;
+    padding: 0;
+    margin: 50px 0 50px 20px;
+    background: url("img\background.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
-    .containermod { 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 630px;
-        margin: 0 auto;
-        background-color: DDD0C7;
-        background-image: url(/img/inside-weather.jpg);
+.containermod { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 630px;
+    margin: 0 auto;
+    background-color: DDD0C7;
+    background-image: url(/img/inside-weather.jpg);
     }
 
-    .containermodst { 
+.containermodst { 
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -108,3 +108,47 @@ font-weight: 500;
 line-height: normal;
 }
 
+.block-bio {
+width: 115px;
+height: 23px;
+top: 1033px;
+left: 738px;
+}
+
+.nav-bio {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-color: #FFF;
+margin: 0 auto;
+top: 916px;
+left: 138px;
+width: 1165px;
+height: auto;
+
+}
+
+.bio-1 {
+width: 466px;
+height: auto;
+text-align: left;
+margin: 0 auto;
+}
+
+.bio-2 {
+align-self: baseline;
+width: 115px;
+height: 23px;
+top: 1033px;
+left: 738px;
+writing-mode: vertical-rl;
+margin: 0 auto;    
+    }
+
+
+.bio-3 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
