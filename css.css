@@ -90,7 +90,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.main-header, .mid-header, .block-bio, .block-art, .lock-art-description, .chapter, .designers-name, .Block-testimonials, .references {
+.main-header, .mid-header, .block-bio, .block-art, .lock-art-description, .chapter, .designers-name, .Block-testimonials, {
 color: #000;
 font-family: Roboto;
 font-size: 24px;
@@ -109,7 +109,7 @@ line-height: normal;
 }
 
 .block-bio {
-width: 115px;
+max-width: 115px;
 height: 23px;
 top: 1033px;
 left: 738px;
@@ -122,36 +122,80 @@ align-items: center;
 justify-content: center;
 gap: 80px;
 background-color: #FFF;
-margin: 0 auto;
 top: 916px;
 left: 138px;
-width: 1165px;
+max-width: 1165px;
 height: auto;
-
 }
 
 .bio-1 {
-width: 466px;
+max-width: 466px;
 height: auto;
 text-align: left;
-margin: 0 auto;
 padding: 50px;
 }
 
 .bio-2 {
 align-self: baseline;
-width: 115px;
+max-width: 115px;
 height: 23px;
 top: 1033px;
 left: 738px;
 writing-mode: vertical-rl;
-margin: 0 auto;
 padding: 50px;    
     }
 
-
 .bio-3 {
-    width: auto;
+    max-width: auto;
     height: auto;
-    margin: 0 auto;
+     }
+
+.content {
+    display: grid;
+    grid-template-columns: 20% 20% 10% 30%;
+    grid-template-rows: repeat(3,1fr); 
+    background-color: aqua;
+    max-width: 100vp;
+    max-height: 760px;
+    column-gap: 20px;
+   
+}
+.testimonials-web {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    transform: rotate(-90deg);
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.testimonials-brand {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    transform: rotate(-90deg);
+    color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+
+}
+.testimonials-creat {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    transform: rotate(-90deg);
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+
+.test-image {
+    grid-column: 2/3;
+    grid-row: 1/4;  
 }
