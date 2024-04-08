@@ -143,59 +143,101 @@ top: 1033px;
 left: 738px;
 writing-mode: vertical-rl;
 padding: 50px;    
-    }
+}
 
 .bio-3 {
     max-width: auto;
     height: auto;
-     }
+}
 
-.content {
+.testimonials-block {
     display: grid;
     grid-template-columns: 20% 20% 10% 30%;
     grid-template-rows: repeat(3,1fr); 
-    background-color: aqua;
+    /*background-color: aqua;*/
     max-width: 100vp;
     max-height: 760px;
+    margin-top: 100px;
     column-gap: 20px;
-   
+    justify-content: center;
+    justify-self: center;
+}
+.references {
+    text-decoration: none;
+    color: #000;
+
 }
 .testimonials-web {
     grid-column: 1/2;
     grid-row: 1/2;
     transform: rotate(-90deg);
-    color: #000;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    
+    max-width: 98px;
+    justify-self: end;
+    align-self: center;
+    line-height: 26px;
 }
+
 .testimonials-brand {
     grid-column: 1/2;
     grid-row: 2/3;
     transform: rotate(-90deg);
-    color: #000;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-
-
+    max-width: 98px;
+    justify-self: end;
+    align-self: center;
+    line-height: 26px;
 }
+
 .testimonials-creat {
     grid-column: 1/2;
     grid-row: 3/4;
     transform: rotate(-90deg);
-    color: #000;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-   
+    max-width: 98px;
+    justify-self: end;
+    align-self: center;
+    line-height: 26px;
 }
 
 .test-image {
     grid-column: 2/3;
-    grid-row: 1/4;  
+    grid-row: 1/4;
+    }
+
+.Block-testimonials {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    transform:rotate(-90deg);
+    align-content: start;
+    justify-self: start;
+    gap: 200px 0 20px 20px;
+    line-height: normal;
+    padding: 200px;
+}
+
+.quotes-test-image2 {    
+    grid-row: 1/4;
+    grid-column: 4/5; 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr;
+    justify-content: center;
+    max-width: 451px;
+}
+.quotes {
+    max-width: 221px;
+    max-height: 304px;
+    color: #000;
+    text-align:center;
+    font-family: "Bitter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.test-image2 {
+    max-width: 221px;
+    max-height: 333px;
+    align-self: start;
+    gap: 0 0 20px 0;
+    align-items: start;
 }
