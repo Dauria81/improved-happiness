@@ -4,7 +4,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 flex-shrink: 0;
 }
-body { margin: 0px;}
+body { margin: 0px; padding: 0;}
 .container {
     display: flex;
     max-width: 100%;
@@ -108,47 +108,114 @@ font-weight: 500;
 line-height: normal;
 }
 
-.block-bio {
-max-width: 115px;
-height: 23px;
-top: 1033px;
-left: 738px;
-}
+ul {
+    list-style: none;
+  }
 
 .nav-bio {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-gap: 80px;
-background-color: #FFF;
-top: 916px;
-left: 138px;
-max-width: 1165px;
-height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    max-width: 90%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.block-bio {
+padding: 90px 0 0 0;
+width: 50px;
+color: #000;
+font-family: "Roboto-Bold";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .bio-1 {
-max-width: 466px;
-height: auto;
-text-align: left;
-padding: 50px;
+    max-width: 571px;
+    justify-content: end;
 }
 
 .bio-2 {
-align-self: baseline;
-max-width: 115px;
-height: 23px;
-top: 1033px;
-left: 738px;
-writing-mode: vertical-rl;
-padding: 50px;    
-    }
+display: block;
+transform: rotate(-90deg);    
+}
 
 .bio-3 {
-    max-width: auto;
+    display: flex;
+    max-width: 455px;
     height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
      }
+
+.katya {
+    padding: 90px 0 0 0;
+    width: 50px;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-size: 86px;
+    font-style: medium;
+    font-weight: 500;
+    text-align: left;
+    align-content: center;
+}
+
+.block-art{
+    display: inline-block;
+    height: auto;
+    color: #000;
+    text-align: left;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+    }    
+
+.block-art-description {
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;  
+}
+
+.bio-list:nth-of-type(n+2):before {
+    content: "/";
+    width: 10px;
+    height: 10px;
+ }
+
+.quotes-bio {
+    display: block;
+    width: 20px;
+    height: 6px;
+    background-color: #000;
+    margin-top: 18px;
+}
+blockquote {margin: 0;}
+.blockquote {
+    display: flex;
+    max-width: 455px;
+    height: auto;
+    margin: 0;
+   }
+
+.quote {
+    display: flex;
+    color: #000;
+    text-align: left;
+    font-family: "Bitter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+    overflow: hidden;
+}
 
 .content {
     display: grid;
