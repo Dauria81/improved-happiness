@@ -305,3 +305,30 @@ html {
         gap: 0 0 20px 0;
         align-items: start;
     }
+
+    .designers-sec {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        overflow-x: scroll;
+      
+ 
+    }
+    .chapter {
+      margin-left: 10%;
+      padding: 20px;
+
+}
+
+.designers-name {
+    gap: 20px;
+    /* overflow-x: scroll;*/
+    align-items: end;
+    margin-left: 20px;
+}
+
+   .imgjess {
+    
+   
+   } 
