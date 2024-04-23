@@ -1,79 +1,92 @@
-html { 
+html {
     font-family: 'Bitter', serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto', sans-serif;
     flex-shrink: 0;
-    }
-    body { margin: 0px; padding: 0;}
-    .container {
-        display: flex;
-        max-width: 100%;
-        height: 135px;
-        outline: 1px solid  #FFF;
-        box-sizing: border-box;
-    }
-    h2, h3, ul, p {
-        margin: 0;
-        padding: 0;
-      }
-    .logo {
-        padding: 0;
-        margin: 0;
-        vertical-align: center; 
-        color: #000;
-        font-family: "Playfair Display";
-        font-size: 86px;
-        font-style: normal;
-        font-weight: 600;
-    }
-    .nav {
-        display: inline-block;
-        width: 1195px;
-        height:28px;
-        padding: 0;
-        margin: 50px 0 50px 202px;
-        position: static;
-        color: #000;
-        text-align: right;
-        font-family: "Roboto";
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;  
-        vertical-align: center;           
-        }
-    .button { 
-        width: 109px;
-        height:28px;
-        padding: 0;
-        margin: 20px 0 20px 20px;  
-        color: #000;
-        text-decoration: none;
-        }
-    
-    .hero-section {
-        display: border-box;
-        width: 100%;
-        height:630px;
-        padding: 0;
-        margin: 50px 0 50px 20px;
-        background: url("img\background.jpg");
-        background-size: no-repeat;
-        background-position: center;
-        background-size: cover;
-        }
-    .containermod { 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 630px;
-        margin: 0 auto;
-        background-color: DDD0C7;
-        background-image: url(/img/inside-weather.jpg);
-        }
-    
-    .containermodst { 
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    height: 135px;
+    outline: 1px solid #FFF;
+    box-sizing: border-box;
+}
+
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+    /*padding: 0;*/
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+    vertical-align: center;
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.nav {
+    display: inline-block;
+    width: 1195px;
+    height: 28px;
+    padding: 0;
+    margin: 50px 0 50px 202px;
+    position: static;
+    color: #000;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    vertical-align: center;
+}
+
+.button {
+    width: 109px;
+    height: 28px;
+    padding: 0;
+    margin: 20px 0 20px 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.hero-section {
+    display: border-box;
+    width: 100%;
+    height: 630px;
+    padding: 0;
+    margin: 50px 0 50px 20px;
+    background: url("img\background.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.containermod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 630px;
+    margin: 0 auto;
+    background-color: DDD0C7;
+    background-image: url(/img/inside-weather.jpg);
+}
+
+.containermodst {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,49 +95,58 @@ html {
     width: 690px;
     height: 360px;
     Top: 271px
-        }
-    
-    .quotes, .list {
+}
+
+.quotes,
+.list {
     color: #000;
     font-family: Bitter;
     font-size: 34px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    }
-    
-    .main-header, .mid-header, .block-bio, .block-art, .lock-art-description, .chapter, .designers-name, .Block-testimonials, {
-    color: #000;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;   
-    }
-    
-    .robotomed {
+}
+
+.main-header,
+.mid-header,
+.block-bio,
+.block-art,
+.lock-art-description,
+.chapter,
+.designers-name,
+.Block-testimonials,
+{
+color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.robotomed {
     color: #0D0D0D;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    }
-    
-    ul {
-        list-style: none;
-      }
-    
-    .nav-bio {
-        display: flex;
-        justify-content: center;
-        background-color: #FFF;
-        max-width: 90%;
-        margin-top: 10%;
-        margin-right: 5%;
-    }
-    
-    .block-bio {
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-bio {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    max-width: 90%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.block-bio {
     padding: 90px 0 0 0;
     width: 50px;
     color: #000;
@@ -133,192 +155,199 @@ html {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    }
-    
-    .bio-1 {
-        max-width: 571px;
-        justify-content: end;
-    }
-    
-    .bio-2 {
-    display: block;
-    transform: rotate(-90deg);    
-    }
-    
-    .bio-3 {
-        display: flex;
-        max-width: 455px;
-        height: auto;
-        flex-direction: column;
-        justify-content: center;
-        align-content: space-between;
-         }
-    
-    .katya {
-        padding: 90px 0 0 0;
-        width: 50px;
-        height: auto;
-        font-family: 'Playfair Display', serif;
-        color: #000;
-        font-size: 86px;
-        font-style: medium;
-        font-weight: 500;
-        text-align: left;
-        align-content: center;
-    }
-    
-    .block-art{
-        display: inline-block;
-        height: auto;
-        color: #000;
-        text-align: left;
-        font-family: "Roboto";
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: 5px;
-        }    
-    
-    .block-art-description {
-        display: flex;
-        padding-left: 0;
-        flex-wrap: wrap;  
-    }
-    
-    .bio-list:nth-of-type(n+2):before {
-        content: "/";
-        width: 10px;
-        height: 10px;
-     }
-    
-    .quotes-bio {
-        display: block;
-        width: 20px;
-        height: 6px;
-        background-color: #000;
-        margin-top: 18px;
-    }
-    blockquote {margin: 0;}
-    .blockquote {
-        display: flex;
-        max-width: 455px;
-        height: auto;
-        margin: 0;
-       }
-    
-    .quote {
-        display: flex;
-        color: #000;
-        text-align: left;
-        font-family: "Bitter";
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: 18px;
-        overflow: hidden;
-    }
-    
-    
-    .testimonials-block {
-        display: grid;
-        grid-template-columns: 10% 30% 15% 20%;
-        grid-template-rows: repeat(3,1fr); 
-        /*background-color: aqua;*/
-        margin-top: 100px;
-        column-gap: 20px;
-        justify-content: center;
-            }
-    
-        .references {
-        text-decoration: none;
-        color: #000;
-        }
-    .testimonials-web {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        transform: rotate(-90deg);
-        max-width: 98px;
-        justify-self: end;
-        align-self: center;
-        line-height: 26px;
-    }
-    
-    .testimonials-brand {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        transform: rotate(-90deg);
-        max-width: 98px;
-        justify-self: end;
-        align-self: center;
-        line-height: 26px;
-    }
-    
-    .testimonials-creat {
-        grid-column: 1/2;
-        grid-row: 3/4;
-        transform: rotate(-90deg);
-        max-width: 98px;
-        justify-self: end;
-        align-self: center;
-        line-height: 26px;
-    }
-    
-    .test-image {
-        grid-column: 2/3;
-        grid-row: 1/4;
-        width: 100%;
-        object-fit:cover;
-        }
-    
-    .block-testimonials {
-        transform:rotate(-90deg);
-        text-align: end;             
-         }
-    
-    .quotes-test-image2 {    
-        grid-row: 1/4;
-        grid-column: 4/5; 
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows:1fr 1fr;
-        justify-content: center;
-        max-width: 451px;
-    }
-    .testimonials-quotes {
-        max-width: 221px;
-        max-height: 304px;
-        color: #000;
-        text-align:center;
-        font-family: "Bitter";
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .test-image2 {
-        max-width: 221px;
-        max-height: 333px;
-        align-self: start;
-        gap: 0 0 20px 0;
-        align-items: start;
-    }
+}
 
-    .designers-sec {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: end;
-        justify-content: space-around;
-        overflow-x: scroll;
-        justify-content: baseline;
-      
- 
-    }
-    .chapter {
-      margin-left: 10%;
-      padding: 20px;
+.bio-1 {
+    max-width: 571px;
+    justify-content: end;
+}
+
+.bio-2 {
+    display: block;
+    transform: rotate(-90deg);
+}
+
+.bio-3 {
+    display: flex;
+    max-width: 455px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.katya {
+    padding: 90px 0 0 0;
+    width: 50px;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-size: 86px;
+    font-style: medium;
+    font-weight: 500;
+    text-align: left;
+    align-content: center;
+}
+
+.block-art {
+    display: inline-block;
+    height: auto;
+    color: #000;
+    text-align: left;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.block-art-description {
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+.bio-list:nth-of-type(n+2):before {
+    content: "/";
+    width: 10px;
+    height: 10px;
+}
+
+.quotes-bio {
+    display: block;
+    width: 20px;
+    height: 6px;
+    background-color: #000;
+    margin-top: 18px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.blockquote {
+    display: flex;
+    max-width: 455px;
+    height: auto;
+    margin: 0;
+}
+
+.quote {
+    display: flex;
+    color: #000;
+    text-align: left;
+    font-family: "Bitter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+    overflow: hidden;
+}
+
+
+.testimonials-block {
+    display: grid;
+    grid-template-columns: 10% 30% 15% 20%;
+    grid-template-rows: repeat(3, 1fr);
+    /*background-color: aqua;*/
+    margin-top: 100px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.references {
+    text-decoration: none;
+    color: #000;
+}
+
+.testimonials-web {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    transform: rotate(-90deg);
+    max-width: 98px;
+    justify-self: end;
+    align-self: center;
+    line-height: 26px;
+}
+
+.testimonials-brand {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    transform: rotate(-90deg);
+    max-width: 98px;
+    justify-self: end;
+    align-self: center;
+    line-height: 26px;
+}
+
+.testimonials-creat {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    transform: rotate(-90deg);
+    max-width: 98px;
+    justify-self: end;
+    align-self: center;
+    line-height: 26px;
+}
+
+.test-image {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    width: 100%;
+    object-fit: cover;
+}
+
+.block-testimonials {
+    transform: rotate(-90deg);
+    text-align: end;
+}
+
+.quotes-test-image2 {
+    grid-row: 1/4;
+    grid-column: 4/5;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    max-width: 451px;
+}
+
+.testimonials-quotes {
+    max-width: 221px;
+    max-height: 304px;
+    color: #000;
+    text-align: center;
+    font-family: "Bitter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.test-image2 {
+    max-width: 221px;
+    max-height: 333px;
+    align-self: start;
+    gap: 0 0 20px 0;
+    align-items: start;
+}
+
+.designers-sec {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: end;
+    justify-content: space-around;
+    overflow-x: scroll;
+    justify-content: baseline;
+
+
+}
+
+.chapter {
+    margin-left: 10%;
+    padding: 20px;
 
 }
 
@@ -327,30 +356,111 @@ html {
     /* overflow-x: scroll;*/
     /*align-items: end;*/
     margin-left: 80px;
-        
+
 }
 
 .textblockjess {
-   margin-top: 20px;
-   margin-left: 50%;
-     
+    margin-top: 20px;
+    margin-left: 50%;
+
 }
+
 .textblockcleinred {
     margin-top: 20px;
     margin-right: 20%;
-      
- }
 
-   .textname {
+}
+
+.textname {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
-    line-height: 18.75px;   
-   } 
+    line-height: 18.75px;
+}
 
-   .text-desc {
+.text-desc {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
-   }
+}
+
+.strong-sec {
+    margin-left: 10px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    overflow-x: scroll;
+    align-items: end;
+    margin-left: 20px;*/
+    /*display: flex;
+        align-items: end;
+        column-gap: 0px;
+        justify-content: space-between;
+        justify-content: baseline;*/
+}
+
+.strong-sec {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.strong-card {
+    margin-left: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.chapter1 {
+    margin-left: 10%;
+    padding: 20px;
+}
+
+@supports (display: grid) {
+    .strong-sec {
+        margin-left: 10px;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        overflow-x: scroll;
+        align-items: end;
+        margin-left: 20px;
+    }
+
+    .strong-card {
+        min-width: 335px;
+    }
+
+    .strong-card:nth-of-type(3) {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 554px;
+        width: 451px;
+        gap: 5%;
+    }
+
+.strong-card:nth-of-type(3) ul {
+    margin-bottom: 10%;
+}}
+
+.strength-title {
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 86px;
+    text-align: left;
+    margin: 0;
+}
+
+.strength-list {
+    font-family: Bitter;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    margin: 0;
+}
