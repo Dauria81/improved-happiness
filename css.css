@@ -309,9 +309,10 @@ html {
     .designers-sec {
         display: flex;
         flex-wrap: nowrap;
-        align-items: center;
+        align-items: end;
         justify-content: space-around;
         overflow-x: scroll;
+        justify-content: baseline;
       
  
     }
@@ -324,11 +325,32 @@ html {
 .designers-name {
     gap: 20px;
     /* overflow-x: scroll;*/
-    align-items: end;
-    margin-left: 20px;
+    /*align-items: end;*/
+    margin-left: 80px;
+        
 }
 
-   .imgjess {
-    
-   
+.textblockjess {
+   margin-top: 20px;
+   margin-left: 50%;
+     
+}
+.textblockcleinred {
+    margin-top: 20px;
+    margin-right: 20%;
+      
+ }
+
+   .textname {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;   
    } 
+
+   .text-desc {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+   }
